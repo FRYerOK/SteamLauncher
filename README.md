@@ -2,7 +2,7 @@
 
 A totally free Steam clone :smile:
 
-[forum cs.rin.ru support](http://cs.rin.ru/forum)
+[forum cs.rin.ru support](https://cs.rin.ru/forum/viewtopic.php?f=20&t=116801)
 
 ## Donate
 
