@@ -4,6 +4,8 @@ A totally free Steam clone :smile:
 
 [forum cs.rin.ru support](https://cs.rin.ru/forum/viewtopic.php?f=20&t=116801)
 
+<img src="https://raw.githubusercontent.com/Sak32009/SteamLauncher/main/screenshots/screenshot_main.png" alt="screenshot-main" width="400">
+
 ## Donate
 
 > **Protect development and free things -- because their survival is in our hands.**
@@ -49,9 +51,7 @@ To add a game, simply drag the game executable to the main page of the applicati
 
 ## Unsupported Steam features
 
-- **Bypass Denuvo**
-- **Bypass SteamStub**
-- **Bypass SteamCEG**
+- **Bypass any DRM (Denuvo, SteamStub, SteamCEG, etc.) within the game.**
 
 ## TODO
 
