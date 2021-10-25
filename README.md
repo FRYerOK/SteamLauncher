@@ -35,7 +35,7 @@ When the application starts, you will be asked to create the account. Once creat
 
 Now download the latest release of Mr. Goldberg's emulator, extract the files from the "experimental_steamclient" folder to the "emulator" folder previously seen.
 
-To add a game, simply drag the game executable to the main page of the application in the appropriate section, fill in the data and right-click on the game card to open the context menu and click on "Start".
+To add a game, simply drag the game executable to the main page of the application in the appropriate section, fill in the data and right-click on the game card to open the context menu and click on "Launch".
 
 **For a proper start, please use the original steam_api(64).dll**
 
