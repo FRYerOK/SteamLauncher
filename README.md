@@ -10,7 +10,7 @@ A totally free Steam clone :smile:
 
 > **Protect development and free things -- because their survival is in our hands.**
 >
-> **You can donate by clicking on "[PayPal Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U7TLCVMHN9HA2&source=url)".**
+> **You can donate by clicking on [paypal.me](https://www.paypal.me/sak32009a).**
 
 ## Introduction
 
