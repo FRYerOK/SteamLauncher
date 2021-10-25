@@ -59,24 +59,27 @@ The first item in the list has priority.
 
 - **The SteamLauncher code is sadly worse than a child's drawing of a tree.**
 
-## FAQ and Troubleshoots
+## FAQ
 
-### I'm not able to change/add the dlcs of the game.
+### I can't find a way to add/delete game dlcs. How you do it?
 
-When you add / edit the selected game, the dlcs list is automatically extracted from steamdb.
+There is currently no way to do this, when you add/edit the selected game, the dlcs list is automatically extracted from steamdb.
 
-### A new dlc was added 2 minutes ago but when i modify the game, it is not activated in game.
-
-From the moment of the last request, an hour must pass to be able to make another one.
-**it is better to prevent another message from the steamdb author.**
-
-### To update the list of dlcs what should I do?
+### I can't find a way to update dlcs of the game. How you do it?
 
 For the moment you can update the dlcs by opening the game editing screen and pressing "Save" even without modifying the data.
 
-### I'm not able to change the steamid.
+### I can't find a way to edit steamid. How you do it?
 
-When you create the account, the steamid is assigned automatically. It can be viewed in the account data editing screen.
+When you create the account, the steamid is assigned automatically. There is no way to change it for now.
+
+## Troubleshoots
+
+### A new dlc was added 2 minutes ago in steamdb but when i modify the game, it is not activated in game.
+
+From the moment of the last request, an hour must pass to be able to make another one.
+
+**It's better to prevent another message from the steamdb author.**
 
 ## Legal
 
@@ -90,4 +93,6 @@ When you create the account, the steamid is assigned automatically. It can be vi
 >
 > _SteamLauncher_ doesn't have code taken from Valve or any of its partners / affiliates.
 >
-> Use _SteamLauncher_ at your own risk. I'm not responsible for what happens while using _SteamLauncher_. You take full reponsibility for any outcome that happens to you while using this application. Do not distribute _SteamLauncher_ files.
+> Use _SteamLauncher_ at your own risk.
+>
+> I'm not responsible for what happens while using _SteamLauncher_. You take full responsibility for any outcome that happens to you while using this application.
