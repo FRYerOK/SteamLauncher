@@ -1,0 +1,18 @@
+@layer utilities {
+  .app-region-no-drag {
+    -webkit-app-region: no-drag;
+  }
+
+  .app-region-drag {
+    -webkit-app-region: drag;
+  }
+
+  .font-oswald {
+    font-family: 'Oswald';
+  }
+
+  .drop-highlight {
+    @apply outline-white;
+    outline-color: rgb(30, 64, 175);
+  }
+}

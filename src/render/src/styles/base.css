@@ -1,0 +1,22 @@
+@layer base {
+  html {
+    @apply select-none text-gray-300;
+  }
+
+  body {
+    @apply bg-steamlauncher overflow-hidden;
+  }
+
+  html,
+  body {
+    @apply h-full;
+  }
+
+  /*& a {
+    @apply text-blue-700;
+    &:hover {
+      @apply text-blue-900;
+      @apply underline;
+    }
+  }*/
+}

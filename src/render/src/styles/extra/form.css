@@ -1,0 +1,33 @@
+@layer components {
+  .form-input {
+    @apply flex flex-auto text-gray-800 rounded-md border-gray-900;
+
+    &[readonly] {
+      @apply cursor-not-allowed;
+    }
+  }
+
+  .form-input-group {
+    @apply flex items-stretch mb-2;
+
+    &:last-child {
+      @apply mb-0;
+    }
+
+    & .form-input-group-text {
+      @apply flex items-center px-2 text-gray-800 bg-white border border-solid border-gray-900 font-bold w-1/4 rounded-md;
+
+      & .iconify {
+        @apply w-5 h-auto;
+      }
+    }
+
+    & > :not(:first-child) {
+      @apply rounded-l-none;
+    }
+
+    & > :not(:last-child) {
+      @apply border-r-0 rounded-r-none;
+    }
+  }
+}

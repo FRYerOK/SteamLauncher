@@ -1,0 +1,30 @@
+name: Build / Release
+
+on: push
+
+jobs:
+  release:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [windows-latest]
+
+    steps:
+      - name: Actions / Checkout
+        uses: actions/checkout@v2
+
+      - name: Actions / Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install
+        run: |
+          yarn install
+
+      - name: Build / Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          yarn run release

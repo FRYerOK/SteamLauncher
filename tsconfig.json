@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "isolatedModules": true,
+    "typeRoots": ["./types", "./node_modules/@types"]
+  },
+  "includes": ["./src/**/src/**/*", "./types/**/*", "./vite.config.ts"]
+}

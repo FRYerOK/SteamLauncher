@@ -1,0 +1,20 @@
+{
+  "appId": "com.electron.steamlauncher",
+  "copyright": "Copyright © 2021 Sak32009",
+  "directories": {
+    "buildResources": "./build/resources/",
+    "output": "./build/release/"
+  },
+  "files": ["./bin/**/*", "./src/*/dist/**/*"],
+  "win": {
+    "target": ["nsis", "zip"],
+    "artifactName": "${name}-${version}-${os}-${arch}-portable.zip"
+  },
+  "nsis": {
+    "oneClick": false,
+    "license": "./LICENSE",
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": "always",
+    "artifactName": "${name}-${version}-${os}-${arch}-installer.exe"
+  }
+}

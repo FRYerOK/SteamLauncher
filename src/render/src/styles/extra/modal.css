@@ -1,0 +1,45 @@
+@layer components {
+  .modal {
+    @apply flex justify-center fixed inset-0 w-full h-full overflow-x-hidden overflow-y-auto bg-black bg-opacity-75 z-10;
+
+    & .modal-dialog {
+      @apply container lg:max-w-3xl p-5 pt-12 flex items-center;
+
+      & .modal-content {
+        @apply bg-steamlauncher-container rounded-md shadow-md w-full flex flex-col;
+      }
+
+      & .modal-header {
+        @apply flex items-center p-3 bg-steamlauncher justify-between;
+
+        & .modal-header-title {
+          @apply flex items-center uppercase;
+
+          & .iconify {
+            @apply w-8 h-auto;
+          }
+        }
+      }
+
+      & .modal-body {
+        @apply flex-auto p-3;
+      }
+
+      & .modal-footer {
+        @apply flex p-3 bg-steamlauncher;
+      }
+
+      &.modal-dialog-scrollabe {
+        @apply h-screen;
+
+        & .modal-content {
+          @apply max-h-full overflow-hidden;
+        }
+
+        & .modal-body {
+          @apply overflow-y-auto;
+        }
+      }
+    }
+  }
+}
